@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+@plugin 'tailwind-scrollbar';
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('@/assets/fonts/Quicksand-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CalSans';
+  src: url('@/assets/fonts/CalSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-section-hero: rgba(53, 80, 112, 0.25);
+  --color-section-profile: rgba(109, 89, 122, 0.25);
+  --color-section-technologies: rgba(181, 101, 118, 0.25);
+  --color-section-projects: rgba(229, 107, 111, 0.25);
+  --color-section-contact: rgba(234, 172, 139, 0.25);
+
+  --font-body: 'Quicksand';
+  --font-heading: 'CalSans';
+}
+
+@layer base {
+  body {
+    @apply font-body m-0 bg-black p-0 text-white;
+  }
+
+  header {
+    @apply fixed top-0 z-10 flex h-16 w-full items-center justify-between px-8 sm:px-16 md:px-24 lg:px-32 xl:px-40 2xl:px-48;
+  }
+
+  section {
+    @apply flex h-screen max-h-screen flex-col justify-center px-8 py-32 sm:px-16 md:px-24 lg:px-32 xl:px-40 2xl:px-48;
+  }
+
+  article {
+    @apply flex max-h-full flex-col items-center justify-center gap-y-12;
+  }
+
+  footer {
+    @apply fixed bottom-0 z-10 flex h-16 w-full items-center justify-between gap-y-4 px-8 sm:px-16 md:px-24 lg:px-32 xl:px-40 2xl:px-48;
+  }
+
+  h1 {
+    @apply font-heading text-6xl font-bold tracking-wide;
+  }
+}
