@@ -1,0 +1,53 @@
+{
+  "languages": {
+    "english": "English",
+    "spanish": "Spanish"
+  },
+  "header": {
+    "sections": {
+      "home": "Home",
+      "profile": "Profile",
+      "technologies": "Technologies",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    }
+  },
+  "profile": {
+    "heading": "Profile",
+    "greeting": "¡Hello and welcome to my portfolio!",
+    "description": "My name is Alonso, I am a passionate Full Stack Developer with experience in creating dynamic and responsive web applications. I enjoy solving complex problems and continuously learning new technologies to enhance my skills. I am committed to delivering high-quality code and collaborating effectively with teams to achieve project goals. Feel free to reach out for any opportunities or collaborations.",
+    "download": "Download CV"
+  },
+  "technologies": {
+    "title": "Technologies",
+    "category": {
+      "game_engines": "Game Engines",
+      "programming_languages": "Programming Languages",
+      "web_development": "Web Development",
+      "development_environments": "Development Environments",
+      "artificial_intelligence": "Artificial Intelligence",
+      "graphics_and_design": "Graphics and Design"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "search_placeholder": "Search projects...",
+    "source": "Source",
+    "download": "Download",
+    "projects_list": {
+      "dark_forest": {
+        "description": "Dark Forest is a 3D adventure game developed with Unity. Explore a mysterious world filled with challenges and secrets as you battle dark creatures and solve puzzles to advance your quest."
+      }
+    }
+  },
+  "built_with": {
+    "title": "Built with",
+    "devicon": {
+      "description": "Icons provided by",
+      "copyright": "MIT License © 2015 konpa."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025. All rights reserved."
+  }
+}

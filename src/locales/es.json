@@ -1,0 +1,54 @@
+{
+  "languages": {
+    "english": "Inglés",
+    "spanish": "Español"
+  },
+  "header": {
+    "sections": {
+      "home": "Inicio",
+      "profile": "Perfil",
+      "technologies": "Tecnologías",
+      "portfolio": "Portafolio",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "download": "Descargar CV"
+  },
+  "contact": {
+    "title": "Sobre Mí",
+    "description": "Soy un Desarrollador Full Stack apasionado con experiencia en la creación de aplicaciones web dinámicas y responsivas. Disfruto resolviendo problemas complejos y aprendiendo continuamente nuevas tecnologías para mejorar mis habilidades. Estoy comprometido a entregar código de alta calidad y a colaborar eficazmente con equipos para alcanzar los objetivos del proyecto. No dudes en contactarme para cualquier oportunidad o colaboración."
+  },
+  "technologies": {
+    "title": "Tecnologías",
+    "category": {
+      "game_engines": "Motores de Juegos",
+      "programming_languages": "Lenguajes de Programación",
+      "web_development": "Desarrollo Web",
+      "development_environments": "Entornos de Desarrollo",
+      "artificial_intelligence": "Inteligencia Artificial",
+      "graphics_and_design": "Gráficos y Diseño"
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "search_placeholder": "Buscar proyectos...",
+    "source": "Código",
+    "download": "Descargar",
+    "projects_list": {
+      "dark_forest": {
+        "description": "Dark Forest es un juego de aventuras en 3D desarrollado con Unity. Explora un mundo misterioso lleno de desafíos y secretos mientras luchas contra criaturas oscuras y resuelves acertijos para avanzar en tu misión."
+      }
+    }
+  },
+  "built_with": {
+    "title": "Desarrollado con",
+    "devicon": {
+      "description": "Íconos proporcionados por",
+      "copyright": "Licencia MIT © 2015 konpa."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025. Todos los derechos reservados."
+  }
+}

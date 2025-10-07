@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+@plugin 'tailwind-scrollbar';
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('@/assets/fonts/Quicksand-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CalSans';
+  src: url('@/assets/fonts/CalSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  color: #ffffff;
+  background-color: #0a0a0a;
+  background-image:
+    radial-gradient(
+      circle at 0% 25%,
+      rgba(167, 139, 250, 0.1) 0%,
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 25% 50%,
+      rgba(56, 189, 248, 0.1) 0%,
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 50% 75%,
+      rgba(244, 114, 182, 0.1) 0%,
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 75% 100%,
+      rgba(167, 139, 250, 0.1) 0%,
+      transparent 30%
+    );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: 'CalSans', sans-serif;
+}
+
+p,
+a {
+  font-family: 'Quicksand', sans-serif;
+}
