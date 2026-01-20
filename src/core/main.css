@@ -1,0 +1,113 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('@/assets/fonts/Quicksand-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CalSans';
+  src: url('@/assets/fonts/CalSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aldrich';
+  src: url('@/assets/fonts/Aldrich-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-body: 'Quicksand';
+  --font-heading: 'CalSans';
+  --font-hero: 'Aldrich';
+
+  --color-rosewater: #f5e0dc;
+  --color-flamingo: #f2cdcd;
+  --color-pink: #f5c2e7;
+  --color-mauve: #cba6f7;
+  --color-red: #f38ba8;
+  --color-maroon: #eba0ac;
+  --color-peach: #fab387;
+  --color-yellow: #f9e2af;
+  --color-green: #a6e3a1;
+  --color-teal: #94e2d5;
+  --color-sky: #89dceb;
+  --color-sapphire: #74c7ec;
+  --color-blue: #89b4fa;
+  --color-lavender: #b4befe;
+
+  --color-default: #cdd6f4;
+
+  --color-subtext: #a6adc8;
+
+  --color-subtext-1: #bac2de;
+
+  --color-overlay-2: #9399b2;
+  --color-overlay-1: #7f849c;
+  --color-overlay-0: #6c7086;
+
+  --color-default-border2: #585b70;
+
+  --color-surface-1: #45475a;
+  --color-surface-0: #313244;
+
+  --color-base: #1e1e2e;
+  --color-mantle: #181825;
+  --color-crust: #11111b;
+}
+
+@layer base {
+  * {
+    @apply select-none;
+  }
+
+  body {
+    @apply m-0 p-0;
+
+    @apply font-body;
+
+    @apply bg-crust text-default;
+  }
+
+  h1 {
+    @apply font-heading font-bold tracking-wide;
+
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl;
+  }
+}
+
+@layer components {
+  .default-section {
+    @apply flex flex-col justify-center;
+
+    @apply px-8 sm:px-16 md:px-32 lg:px-48 xl:px-64 2xl:px-80;
+  }
+
+  .interactive-text {
+    @apply text-subtext;
+
+    @apply cursor-pointer transition-colors duration-200;
+
+    @apply hover:font-bold hover:text-inherit;
+  }
+
+  .interactive-button {
+    @apply flex justify-center gap-x-2 rounded-lg border-2 px-8 py-4;
+
+    @apply font-bold;
+
+    @apply bg-default text-base;
+
+    @apply cursor-pointer transition-colors duration-200;
+
+    @apply hover:bg-base hover:text-inherit;
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "languages": {
+    "english": "Inglés",
+    "spanish": "Español"
+  },
+  "header": {
+    "sections": {
+      "home": "Inicio",
+      "profile": "Perfil",
+      "stack": "Tecnologías",
+      "projects": "Proyectos",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "heading": "Programador de Juegos y Desarrollador Web Front-End"
+  },
+  "profile": {
+    "heading": "Perfil",
+    "greeting": "¡Hola y bienvenido a mi portafolio!",
+    "description": "Mi nombre es Alonso, soy un desarrollador Full Stack con experiencia en crear aplicaciones web dinámicas y responsivas. Me encanta resolver problemas complejos y continuamente aprendiendo nuevas tecnologías para mejorar mis habilidades. Me comprometido a entregar código de alta calidad y colaborar eficazmente con equipos para alcanzar objetivos de proyecto. Siéntete libre de contactarme con cualquier oportunidad o colaboraciones.",
+    "download": "Descargar CV"
+  },
+  "technologies": {
+    "heading": "Tecnologías",
+    "categories": {
+      "game_engines": "Motores de Juegos",
+      "programming_languages": "Lenguajes de Programación",
+      "web_frameworks": "Frameworks Web",
+      "development_environments": "Entornos de Desarrollo",
+      "artificial_intelligence": "Inteligencia Artificial",
+      "graphics_and_design": "Gráficos y Diseño"
+    }
+  },
+  "projects": {
+    "heading": "Proyectos",
+    "search_placeholder": "Buscar proyectos...",
+    "source": "Código",
+    "download": "Descargar",
+    "no_results": "No hay resultados",
+    "list": {
+      "dark_forest": {
+        "description": "Dark Forest es un juego de aventuras en 3D desarrollado con Unity. Explora un mundo misterioso lleno de desafíos y secretos mientras luchas contra criaturas oscuras y resuelves acertijos para avanzar en tu misión."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Contacto",
+    "developed_with": "Desarrollado con"
+  },
+  "footer": {
+    "copyright": "DREAMSEEKER © 2025. Todos los derechos reservados.",
+    "icons_provided_by": "Iconos proporcionados por"
+  }
+}
