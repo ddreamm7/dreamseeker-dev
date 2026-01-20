@@ -1,0 +1,64 @@
+{
+  "languages": {
+    "english": "English",
+    "spanish": "Spanish"
+  },
+  "header": {
+    "sections": {
+      "home": "Home",
+      "profile": "Profile",
+      "stack": "Stack",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "role": "Game Programmer & Web Frontend Developer",
+    "resume": "Download Resume"
+  },
+  "profile": {
+    "heading": "Profile",
+    "greeting": "¡Hello and welcome to my portfolio!",
+    "description": "My name is Alonso, I am a passionate Full Stack Developer with experience in creating dynamic and responsive web applications. I enjoy solving complex problems and continuously learning new technologies to enhance my skills. I am committed to delivering high-quality code and collaborating effectively with teams to achieve project goals. Feel free to reach out for any opportunities or collaborations. My name is Alonso, I am a passionate Full Stack Developer with experience in creating dynamic and responsive web applications. I enjoy solving complex problems and continuously learning new technologies to enhance my skills. I am committed to delivering high-quality code and collaborating effectively with teams to achieve project goals. Feel free to reach out for any opportunities or collaborations."
+  },
+  "technologies": {
+    "heading": "Stack",
+    "categories": {
+      "game_engines": "Game Engines",
+      "programming_languages": "Programming Languages",
+      "web_essentials": "Web Essentials",
+      "artificial_intelligence": "Artificial Intelligence",
+      "graphic_design": "Graphic Design",
+      "web_frameworks": "Web Frameworks"
+    }
+  },
+  "projects": {
+    "heading": "Projects",
+    "search_placeholder": "Search projects...",
+    "source": "Source",
+    "download": "Download",
+    "no_results": "No results found",
+    "list": {
+      "dark_forest": {
+        "description": "Dark Forest is a 3D adventure game developed with Unity. Explore a mysterious world filled with challenges and secrets as you battle dark creatures."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Contact",
+    "social_links": "Social Links",
+    "form": {
+      "heading": "Email Contact",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send"
+    }
+  },
+  "footer": {
+    "copyright": "DreamSpace © 2026. All rights reserved.",
+    "developed_by": "Developed by",
+    "built_with": "Built with",
+    "icons_provided_by": "Icons provided by"
+  }
+}

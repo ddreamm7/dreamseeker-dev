@@ -1,0 +1,64 @@
+{
+  "languages": {
+    "english": "Inglés",
+    "spanish": "Español"
+  },
+  "header": {
+    "sections": {
+      "home": "Inicio",
+      "profile": "Perfil",
+      "stack": "Tecnologías",
+      "projects": "Proyectos",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "role": "Programador de Videojuegos y Desarrollador Frontend Web",
+    "resume": "Descargar CV"
+  },
+  "profile": {
+    "heading": "Perfil",
+    "greeting": "¡Hola y bienvenido a mi portafolio!",
+    "description": "Mi nombre es Alonso, soy un desarrollador Full Stack con experiencia en crear aplicaciones web dinámicas y responsivas. Me encanta resolver problemas complejos y continuamente aprendiendo nuevas tecnologías para mejorar mis habilidades. Me comprometido a entregar código de alta calidad y colaborar eficazmente con equipos para alcanzar objetivos de proyecto. Siéntete libre de contactarme con cualquier oportunidad o colaboraciones. Mi nombre es Alonso, soy un desarrollador Full Stack con experiencia en crear aplicaciones web dinámicas y responsivas. Me encanta resolver problemas complejos y continuamente aprendiendo nuevas tecnologías para mejorar mis habilidades. Me comprometido a entregar código de alta calidad y colaborar eficazmente con equipos para alcanzar objetivos de proyecto. Siéntete libre de contactarme con cualquier oportunidad o colaboraciones."
+  },
+  "technologies": {
+    "heading": "Tecnologías",
+    "categories": {
+      "game_engines": "Motores de Juegos",
+      "programming_languages": "Lenguajes de Programación",
+      "web_essentials": "Esenciales Web",
+      "artificial_intelligence": "Inteligencia Artificial",
+      "graphic_design": "Diseño Gráfico",
+      "web_frameworks": "Frameworks Web"
+    }
+  },
+  "projects": {
+    "heading": "Proyectos",
+    "search_placeholder": "Buscar proyectos...",
+    "source": "Código",
+    "download": "Descargar",
+    "no_results": "No hay resultados",
+    "list": {
+      "dark_forest": {
+        "description": "Dark Forest es un juego de aventuras en 3D desarrollado con Unity. Explora un mundo misterioso lleno de desafíos y secretos mientras luchas contra criaturas oscuras y resuelves acertijos para avanzar en tu misión."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Contacto",
+    "social_links": "Enlaces Sociales",
+    "form": {
+      "heading": "Correo de Contacto",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "message": "Mensaje",
+      "submit": "Enviar"
+    }
+  },
+  "footer": {
+    "copyright": "DreamSpace © 2026. Todos los derechos reservados.",
+    "developed_by": "Desarrollado por",
+    "built_with": "Construido con",
+    "icons_provided_by": "Iconos proporcionados por"
+  }
+}
